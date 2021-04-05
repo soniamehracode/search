@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.myNav {
+  background-color: rgb(8, 14, 48);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  font-family: "Times New Roman", Times, serif;
+  width: 100%;
+  padding: 10px;
+}
+.brand {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.nav-links {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+.nav-links li {
+  list-style: none;
+  padding: 10px;
+  display: inline-block;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+}

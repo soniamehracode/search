@@ -1,0 +1,36 @@
+.inputFeild {
+  padding: 10px;
+  border: none;
+  color: #fff;
+  font-size: 1.25rem;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.inputFeild input {
+  width: 30%;
+  display: flex;
+  padding: 20px;
+  background-color: rgb(8, 8, 43);
+  border-radius: 20em;
+  color: #fff;
+  text-align: left;
+  text-transform: capitalize;
+  justify-content: center;
+  display: inline-block;
+  margin-right: 15px;
+}
+.btn {
+  width: 20%;
+  border-radius: 20em;
+  color: #fff;
+  background-color: green;
+  border: none;
+  font-size: 1.25rem;
+  padding: 15px;
+}
+.btn:hover {
+  background-color: grey;
+  cursor: pointer;
+}
